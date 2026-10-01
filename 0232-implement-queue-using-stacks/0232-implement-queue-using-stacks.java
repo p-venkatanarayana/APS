@@ -15,7 +15,7 @@ class MyQueue {
 
     public int pop() {
         shiftStack();
-        return S2.pop();  // return the removed element
+        return S2.pop(); 
     }
 
     public int peek() {
